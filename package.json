@@ -1,0 +1,41 @@
+{
+  "name": "common-batch",
+  "version": "1.0.0",
+  "description": "WordPress plugin to batch upload custom post types.",
+  "main": "batch-upload.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cahweb/common-batch.git"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "ucf",
+    "cah"
+  ],
+  "author": "Mike W. Leavitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cahweb/common-batch/issues"
+  },
+  "homepage": "https://github.com/cahweb/common-batch#readme",
+  "dependencies": {
+    "npm": "^6.10.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-noop": "^1.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+    "postcss-assets": "^5.0.0",
+    "webpack": "^4.39.2"
+  }
+}
