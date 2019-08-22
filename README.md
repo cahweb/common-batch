@@ -38,8 +38,8 @@ This is specifically designed to create a bunch of stub posts, in Draft form, fo
             <li>Volume number</li>
             <li>Issue number</li>
             <li>Title of journal</li>
-            <li>Publication date (_e.g._, "01/01/1970")</li>
-            <li>Cover date (_e.g._, "Winter 1970)</li>
+            <li>Publication date (e.g., "01/01/1970")</li>
+            <li>Cover date (e.g., "Winter 1970)</li>
             <li>Cover image URL</li>
             <li>Issue theme</li>
             <li>ISBN</li>
