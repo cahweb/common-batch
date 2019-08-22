@@ -7,38 +7,46 @@ A back-end batch uploader for the CAH family of sites that will create and uploa
 This is specifically designed to create a bunch of stub posts, in Draft form, for a given list of data and metadata in a CSV file. Right now, the uploader script only supports the Article and Issue custom post types that CAH designed, and expects the data in a particular order:
 <details>
     <summary>Article</summary>
-    * Post title
-    * Post content
-    * First author's last name
-    * First author's first name
-    * List of any other authors
-    * Magazine issue the article belongs to (if any)
-    * Start page
-    * End page
-    * Purchase URL
-    * DOI
-    * Post excerpt
-    * Abstract
-    * Author info
-    * Author URL
-    * Author of reviewed work (for book reviews)
-    * Title of reviewed work (for book reviews)
-    * URL of reviewed work (for book reviews)
-    * A list of tags (separated by commas)
+    <p>
+        <ul>
+            <li>Post title</li>
+            <li>Post content</li>
+            <li>First author's last name</li>
+            <li>First author's first name</li>
+            <li>List of any other authors</li>
+            <li>Magazine issue the article belongs to (if any)</li>
+            <li>Start page</li>
+            <li>End page</li>
+            <li>Purchase URL</li>
+            <li>DOI</li>
+            <li>Post excerpt</li>
+            <li>Abstract</li>
+            <li>Author info</li>
+            <li>Author URL</li>
+            <li>Author of reviewed work (for book reviews)</li>
+            <li>Title of reviewed work (for book reviews)</li>
+            <li>URL of reviewed work (for book reviews)</li>
+            <li>A list of tags (separated by commas)</li>
+        </ul>
+    </p>
 </details>
 <details>
     <summary>Issue</summary>
-    * Issue title
-    * Volume number
-    * Issue number
-    * Title of journal
-    * Publication date (_e.g._, "01/01/1970")
-    * Cover date (_e.g._, "Winter 1970)
-    * Cover image URL
-    * Issue theme
-    * ISBN
-    * ISSN
-    * Purchase URL
+    <p>
+        <ul>
+            <li>Issue title</li>
+            <li>Volume number</li>
+            <li>Issue number</li>
+            <li>Title of journal</li>
+            <li>Publication date (_e.g._, "01/01/1970")</li>
+            <li>Cover date (_e.g._, "Winter 1970)</li>
+            <li>Cover image URL</li>
+            <li>Issue theme</li>
+            <li>ISBN</li>
+            <li>ISSN</li>
+            <li>Purchase URL</li>
+        </ul>
+    </p>
 </details>
 When activated, the plugin menu can be found under "Tools" in the WordPress dashboard. You must have administrator privileges on the site in question to be able to see/use the plugin.
 
